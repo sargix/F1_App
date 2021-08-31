@@ -1,0 +1,51 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .constStd {
+    &__h1 {
+      font-size: $phone-h1-font-size;
+    }
+    &__table {
+      & > thead > tr {
+        padding: 5px;
+        font-size: $phone-font-size;
+      }
+      & > tbody > tr {
+        padding: 15px 5px;
+        font-size: $phone-font-size;
+      }
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .constStd {
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+    }
+    &__table {
+      & > thead > tr {
+        padding: 5px;
+        font-size: $tablet-font-size;
+      }
+      & > tbody > tr {
+        padding: 15px 5px;
+        font-size: $tablet-font-size;
+      }
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .constStd {
+    &__h1 {
+      font-size: $desktop-h1-font-size;
+    }
+    &__table {
+      & > thead > tr {
+        padding: 5px;
+        font-size: $desktop-font-size;
+      }
+      & > tbody > tr {
+        padding: 15px 5px;
+        font-size: $desktop-font-size;
+      }
+    }
+  }
+}

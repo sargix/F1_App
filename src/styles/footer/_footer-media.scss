@@ -1,0 +1,21 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .footer {
+    height: 5%;
+    padding: 10px;
+    font-size: $phone-font-size;
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .footer {
+    height: 7%;
+    padding: 14px;
+    font-size: $tablet-font-size;
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .footer {
+    height: 6%;
+    padding: 12px;
+    font-size: $desktop-font-size;
+  }
+}

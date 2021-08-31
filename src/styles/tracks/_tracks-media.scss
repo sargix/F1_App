@@ -1,0 +1,98 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .tracks {
+    padding: 10px;
+    &__h1 {
+      font-size: $phone-h1-font-size;
+      padding-bottom: 15px;
+    }
+    &__track {
+      height: 60vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+    &__inf {
+      font-size: $phone-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .tracks {
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+      padding-bottom: 15px;
+    }
+    &__track {
+      width: 49%;
+      height: 50vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+    &__inf {
+      font-size: $tablet-font-size;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-phone-landscape) and (orientation: landscape) {
+  .tracks {
+    padding: 10px;
+    &__h1 {
+      font-size: $phone-h1-font-size;
+      padding-bottom: 5px;
+    }
+    &__track {
+      height: 90vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+    &__inf {
+      font-size: $phone-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet-landscape) and (orientation: landscape) {
+  .tracks {
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+      padding-bottom: 10px;
+    }
+    &__track {
+      width: 49%;
+      height: 70vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+    &__inf {
+      font-size: $tablet-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .tracks {
+    padding: 15px;
+    &__h1 {
+      font-size: $desktop-h1-font-size;
+      padding-bottom: 10px;
+    }
+    &__track {
+      width: 49%;
+      height: 68vh;
+    }
+    &__h2 {
+      font-size: $desktop-h2-font-size;
+    }
+    &__inf {
+      font-size: $desktop-font-size;
+    }
+  }
+}

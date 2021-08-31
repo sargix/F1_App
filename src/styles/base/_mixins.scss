@@ -1,0 +1,33 @@
+@mixin teamSelect($team) {
+  $border-size: 6.5px;
+  @if $team == "mercedes" {
+    border-left: $border-size solid $mercedes-color;
+  }
+  @if $team == "red bull" {
+    border-left: $border-size solid $redbull-color;
+  }
+  @if $team == "mclaren" {
+    border-left: $border-size solid $mclaren-color;
+  }
+  @if $team == "ferrari" {
+    border-left: $border-size solid $ferrari-color;
+  }
+  @if $team == "alpine" {
+    border-left: $border-size solid $alpine-color;
+  }
+  @if $team == "aston martin" {
+    border-left: $border-size solid $aston-martin-color;
+  }
+  @if $team == "alpha tauri" {
+    border-left: $border-size solid $alpha-tauri-color;
+  }
+  @if $team == "williams" {
+    border-left: $border-size solid $williams-color;
+  }
+  @if $team == "alfa romeo" {
+    border-left: $border-size solid $alfa-romeo-color;
+  }
+  @if $team == "haas" {
+    border-left: $border-size solid $haas-color;
+  }
+}

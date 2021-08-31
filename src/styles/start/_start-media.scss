@@ -1,0 +1,79 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .start {
+    flex-direction: column;
+    &__h1 {
+      font-size: $phone-h1-font-size;
+    }
+    &__news {
+      width: 100%;
+      height: 50vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) and (orientation: portrait) {
+  .start {
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+    }
+    &__news {
+      flex-basis: 48%;
+      height: 35vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-phone-landscape) and (orientation: landscape) {
+  .start {
+    flex-direction: column;
+    &__h1 {
+      font-size: $phone-h1-font-size;
+      padding-bottom: 5px;
+    }
+    &__news {
+      width: 100%;
+      height: 61vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet-landscape) and (orientation: landscape) {
+  .start {
+    flex-direction: column;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+    }
+    &__news {
+      width: 100%;
+      height: 50vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .start {
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $desktop-h1-font-size;
+    }
+    &__news {
+      width: 48%;
+      height: 60vh;
+    }
+    &__h2 {
+      font-size: $desktop-h2-font-size;
+    }
+  }
+}

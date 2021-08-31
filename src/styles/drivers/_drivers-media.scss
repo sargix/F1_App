@@ -1,0 +1,100 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .drivers {
+    &__h1 {
+      font-size: $phone-h1-font-size;
+    }
+    &__driver {
+      width: 100%;
+      height: 60vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+    &__num,
+    &__date,
+    &__nat {
+      font-size: $phone-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .drivers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+    }
+    &__driver {
+      width: 49%;
+      height: 50vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+    &__num,
+    &__date,
+    &__nat {
+      font-size: $tablet-font-size;
+    }
+  }
+}
+
+@media screen and (min-width: $breakpoint-phone-landscape) and (orientation: landscape) {
+  .drivers {
+    &__h1 {
+      font-size: $phone-h1-font-size;
+    }
+    &__driver {
+      width: 100%;
+      height: 120vh;
+    }
+    &__h2 {
+      font-size: $phone-h2-font-size;
+    }
+    &__num,
+    &__date,
+    &__nat {
+      font-size: $phone-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-tablet-landscape) and (orientation: landscape) {
+  .drivers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__h1 {
+      font-size: $tablet-h1-font-size;
+    }
+    &__driver {
+      width: 49%;
+      height: 63vh;
+    }
+    &__h2 {
+      font-size: $tablet-h2-font-size;
+    }
+    &__num,
+    &__date,
+    &__nat {
+      font-size: $tablet-font-size;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .drivers {
+    &__h1 {
+      font-size: $desktop-h1-font-size;
+    }
+    &__driver {
+      width: 49%;
+      height: 71vh;
+    }
+    &__h2 {
+      font-size: $desktop-h2-font-size;
+    }
+    &__num,
+    &__date,
+    &__nat {
+      font-size: $desktop-font-size;
+    }
+  }
+}

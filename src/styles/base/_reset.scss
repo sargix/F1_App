@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $phone-font-size;
+  font-family: $primary-font-family;
+}
+
+main {
+  min-height: 90vh;
+}
+
+@media screen and (min-width: $breakpoint-phone) {
+  body {
+    margin-top: 13vh;
+  }
+}

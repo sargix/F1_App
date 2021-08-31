@@ -1,0 +1,15 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .error__h1 {
+    font-size: $phone-h1-font-size;
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .error__h1 {
+    font-size: $tablet-h1-font-size;
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) {
+  .error__h1 {
+    font-size: $desktop-h1-font-size;
+  }
+}

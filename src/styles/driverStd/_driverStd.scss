@@ -1,0 +1,94 @@
+.driverStd {
+  padding: 10px;
+  &__h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__table {
+    width: 100%;
+    & > thead > tr {
+      display: flex;
+      box-shadow: 0px 0px 15px 0px $driverStd-box-shadow-color;
+      border-radius: 15px 15px 0 0;
+      & > th {
+        text-align: center;
+      }
+      & > th:nth-of-type(1) {
+        flex-basis: 10%;
+      }
+      & > th:nth-of-type(2) {
+        flex-basis: 40%;
+      }
+      & > th:nth-of-type(3) {
+        flex-basis: 15%;
+      }
+      & > th:nth-of-type(4) {
+        flex-basis: 20%;
+      }
+      & > th:nth-of-type(5) {
+        flex-basis: 15%;
+      }
+    }
+    & > tbody > tr {
+      margin-top: 3px;
+      display: flex;
+      box-shadow: 0px 0px 15px 0px $driverStd-box-shadow-color;
+      padding: 15px 5px;
+      border-radius: 15px;
+      & > td {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      & > td:nth-of-type(1) {
+        flex-basis: 10%;
+      }
+      & > td:nth-of-type(2) {
+        flex-basis: 40%;
+        padding: 3px;
+      }
+      & > td:nth-of-type(3) {
+        flex-basis: 15%;
+      }
+      & > td:nth-of-type(4) {
+        flex-basis: 20%;
+      }
+      & > td:nth-of-type(5) {
+        flex-basis: 15%;
+        font-weight: bold;
+      }
+    }
+  }
+  &__team-mercedes {
+    @include teamSelect("mercedes");
+  }
+  &__team-red_bull {
+    @include teamSelect("red bull");
+  }
+  &__team-mclaren {
+    @include teamSelect("mclaren");
+  }
+  &__team-ferrari {
+    @include teamSelect("ferrari");
+  }
+  &__team-alpine {
+    @include teamSelect("alpine");
+  }
+  &__team-aston_martin {
+    @include teamSelect("aston martin");
+  }
+  &__team-alphatauri {
+    @include teamSelect("alpha tauri");
+  }
+  &__team-williams {
+    @include teamSelect("williams");
+  }
+  &__team-alfa {
+    @include teamSelect("alfa romeo");
+  }
+  &__team-haas {
+    @include teamSelect("haas");
+  }
+}

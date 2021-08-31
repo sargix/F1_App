@@ -1,0 +1,146 @@
+@media screen and (min-width: $breakpoint-phone) {
+  .header {
+    height: $phone-header-height;
+    &__logo {
+      height: $phone-header-height;
+      flex-basis: 42vw;
+      padding: 0 5px;
+    }
+    &__menu-icon {
+      font-size: $phone-header-icon-size;
+      flex-basis: 10%;
+      height: $phone-header-height;
+    }
+    &__menu-item {
+      padding: 8px;
+      flex-basis: 13%;
+    }
+    &__menu-link {
+      font-size: $phone-font-size;
+    }
+    &__menu-link::before,
+    &__menu-link::after {
+      width: 7px;
+    }
+  }
+  .header--active {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: $breakpoint-tablet) {
+  .header {
+    height: $tablet-header-height;
+    &__logo {
+      height: $tablet-header-height;
+      flex-basis: 35vw;
+      padding: 0 10px;
+    }
+    &__menu-icon {
+      font-size: $tablet-header-icon-size;
+      flex-basis: 10%;
+      height: $tablet-header-height;
+    }
+    &__menu-item {
+      padding: 11px;
+      flex-basis: 13%;
+    }
+    &__menu-link {
+      font-size: $tablet-font-size;
+    }
+    &__menu-link::before,
+    &__menu-link::after {
+      width: 14px;
+    }
+  }
+  .header--active {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: $breakpoint-phone-landscape) and (orientation: landscape) {
+  .header {
+    height: $phone-header-height;
+    &__logo {
+      height: $phone-header-height;
+      flex-basis: 18vw;
+      padding: 0 5px;
+    }
+    &__menu-icon {
+      font-size: $phone-header-icon-size;
+      flex-basis: 10%;
+      height: $phone-header-height;
+    }
+    &__menu-item {
+      padding: 8px;
+      flex-basis: 13%;
+    }
+    &__menu-link {
+      font-size: $phone-font-size;
+    }
+    &__menu-link::before,
+    &__menu-link::after {
+      width: 7px;
+    }
+  }
+  .header--active {
+    height: 75vh;
+  }
+}
+@media screen and (min-width: $breakpoint-tablet-landscape) and (orientation: landscape) {
+  .header {
+    height: $tablet-header-height;
+    &__logo {
+      height: $tablet-header-height;
+      flex-basis: 25vw;
+      padding: 0 10px;
+    }
+    &__menu-icon {
+      font-size: $tablet-header-icon-size;
+      flex-basis: 10%;
+      height: $tablet-header-height;
+    }
+    &__menu-item {
+      padding: 11px;
+      flex-basis: 13%;
+    }
+    &__menu-link {
+      font-size: $tablet-font-size;
+    }
+    &__menu-link::before,
+    &__menu-link::after {
+      width: 14px;
+    }
+  }
+  .header--active {
+    height: 50vh;
+  }
+}
+@media screen and (min-width: $breakpoint-desktop) and (orientation: landscape) {
+  .header {
+    height: $desktop-header-height;
+    &__logo {
+      height: $desktop-header-height;
+      flex-basis: 16vw;
+      padding: 0 15px;
+    }
+    &__menu-icon {
+      font-size: $desktop-header-icon-size;
+      flex-basis: 10%;
+      height: $desktop-header-height;
+    }
+    &__menu-item {
+      padding: 11px;
+      flex-basis: 14%;
+    }
+    &__menu-link {
+      font-size: $desktop-font-size;
+    }
+    &__menu-link::before,
+    &__menu-link::after {
+      width: 16px;
+    }
+  }
+  .header--active {
+    height: 70vh;
+  }
+}
