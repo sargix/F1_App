@@ -144,7 +144,7 @@ const Start = () => {
   }, []);
 
   const finishDriversCount = (track) => {
-    switch (collisionCount) {
+    switch (Number(collisionCount)) {
       case 0:
         return `Wszyscy kierowcy ukończyli wyścig na ${track}`;
       case 1:
